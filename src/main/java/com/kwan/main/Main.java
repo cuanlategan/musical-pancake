@@ -1,5 +1,6 @@
 package com.kwan.main;
 
+
 import java.io.IOException;
 
 
@@ -8,8 +9,9 @@ public class Main {
 
     System.out.println(ContainerRestClient.getStatus("http://localhost:8080").getStatus());
 
+
     System.out.println(">>> Press ENTER to exit <<<");
-    int ignored = System.in.read();
+    System.in.read();
 
   }
 }
